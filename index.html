@@ -75,14 +75,14 @@
     <script>
         function checkAnswer() {
             let userInput = document.getElementById("answerInput").value;
-            if (["네", "어", "엉", "당연", "yes", "Yes", "예", "에", "ㅛㄷㄴ", "응", "넹"].includes(userInput)) {
+            if (["네", "어", "엉", "당연", "yes", "Yes", "예", "에", "ㅛㄷㄴ", "응", "넹", "ㅇㅇ"].includes(userInput)) {
                 alert("Goto https://nabuley.github.io/start-page/");
             } else if (userInput === "ㅇ" | userInput === "ㄴ") {
                 alert("야, 아무리 그래도 성의가 없잖아? 좀 정성스럽게 써, 자음 하나 던지지 말고.");
             } else if (["아뇨", "ㄴㄴ", "ㅇㄴ", "아니", "아니요", "no", "No", "ㅜㅐ", "아뇽"].includes(userInput)) {
                 alert("거절은 없습니다만. Goto https://nabuley.github.io/start-page/");
             } else if (["시발", "좆까", "꺼져", "바보", "젠장", "씨발", "지랄", "ㅈㄹ", "개새끼"].includes(userInput)) {
-                alert("어쩌라구요 욕쟁이 늙은이씨? 넌 인마 자격 박탈이야.");
+                alert("넌 나가라");
             } else {
                 alert("다른걸 쓰시죠.");
             }
